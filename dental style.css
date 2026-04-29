@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #FFF8FB;
+    color: #444;
+}
+
+/* TOP BAR */
+.topbar {
+    background-color: #5A3E6B;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/* HERO SECTION (MAIN UPGRADE) */
+.hero-section {
+    background-color: #F7D6E0;
+    padding: 50px;
+}
+
+/* LEFT SIDE IMAGE */
+.hero-left {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circle-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid #BFA2DB;
+}
+
+/* RIGHT SIDE TEXT */
+.hero-right {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.hero-right h1 {
+    color: #5A3E6B;
+}
+
+.hero-right h2 {
+    color: #BFA2DB;
+}
+
+.hero-right p {
+    margin: 15px 0;
+}
+
+/* BUTTON */
+.btn {
+    background-color: #BFA2DB;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #5A3E6B;
+}
+
+/* SECTION */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* SERVICES */
+.service-box {
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 180px;
+    border: 2px solid #F7D6E0;
+}
+
+/* DOCTORS */
+.doctor-card {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    border: 2px solid #F7D6E0;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.doctor-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.specialists-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.flower {
+    width: 40px;
+}
+
+/* CTA */
+.cta {
+    background-color: #BFA2DB;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #5A3E6B;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* WHY SECTION */
+.why-section {
+    background-color: #FFF0F5;
+    text-align: center;
+    padding: 40px;
+}
+
+.why-box {
+    display: inline-block;
+    width: 220px;
+    margin: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid #F7D6E0;
+}
+
+/* STATS */
+.stats {
+    background-color: #5A3E6B;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.stat-box {
+    display: inline-block;
+    margin: 20px;
+}
+
+.stat-box h2 {
+    font-size: 30px;
+}
+summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.expand-box {
+    margin-top: 20px;
+}
+
+.more-services {
+    margin-top: 15px;
+}
+summary.btn {
+    display: inline-block;
+}
+/* WRAPPER FOR POSITIONING */
+.doctors-wrapper {
+    position: relative;
+}
+
+/* SIDE FLOWERS */
+.side-flower {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 220px; /* 🔥 MUCH BIGGER */
+    opacity: 0.9;
+}
+
+/* LEFT SIDE */
+.side-flower.left {
+    left: 0px; /* was negative before */
+}
+
+/* RIGHT SIDE */
+.side-flower.right {
+    right: 0px;
+}
+
+/* KEEP DOCTORS CENTERED */
+.doctors {
+    text-align: center;
+}
+.doctors-wrapper {
+    position: relative;
+    padding: 0 120px; /* THIS MAKES SPACE FOR FLOWERS */
+}
+.side-flower {
+    filter: drop-shadow(0 0 10px #E6CFF2);
+}
+/* FORM SECTION */
+.form-section {
+    background-color: #FFF0F5;
+    padding: 50px;
+    text-align: center;
+}
+
+/* FORM BOX */
+.dentalform {
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid #F7D6E0;
+    box-shadow: 0 0 15px #EAD7F5;
+}
+
+/* INPUT FIELDS */
+.dentalform input,
+.dentalform select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* LABELS */
+.dentalform label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    color: #5A3E6B;
+}
+
+/* SUBTEXT */
+.form-subtext {
+    color: #BFA2DB;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    text-decoration: none;
+    color: #5A3E6B;
+}
